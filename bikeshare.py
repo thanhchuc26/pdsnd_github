@@ -158,8 +158,8 @@ def user_stats(df):
     print('-' * 40)
 
 
+#TO DO: Display raw data in chunks of 5 rows
 def display_raw_data(df):
-    """Displays raw data in chunks of 5 rows."""
     row_start = 0
     while True:
         show_data = input("Do you want to check the first 5 rows of the dataset? (yes/no)\n").lower()
